@@ -7,6 +7,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 @NgModule({
   declarations: [],
   imports: [
@@ -18,6 +19,7 @@ import { MatListModule } from '@angular/material/list';
     MatInputModule,
     MatSidenavModule,
     MatListModule,
+    MatSlideToggleModule,
   ],
   exports: [
     CommonModule,
@@ -28,6 +30,7 @@ import { MatListModule } from '@angular/material/list';
     MatInputModule,
     MatSidenavModule,
     MatListModule,
+    MatSlideToggleModule,
   ],
 })
 export class SharedModule {}
