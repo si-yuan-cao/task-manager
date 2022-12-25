@@ -6,6 +6,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 @NgModule({
   declarations: [],
   imports: [
@@ -16,6 +17,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatCardModule,
     MatInputModule,
     MatSidenavModule,
+    MatListModule,
   ],
   exports: [
     CommonModule,
@@ -25,6 +27,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatCardModule,
     MatInputModule,
     MatSidenavModule,
+    MatListModule,
   ],
 })
 export class SharedModule {}
